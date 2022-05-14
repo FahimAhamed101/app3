@@ -85,6 +85,12 @@ justify-content: center;
 .steptext{
 
 }
+.stepbar{
+  display: flex;
+flex-direction: row;
+
+justify-content: center;
+}
 .midle{
   width: 100%;
   display: flex;
@@ -102,10 +108,10 @@ justify-content: center;
   }
 }
 .flexitems {
-  width: 70%;
+  width: 75%;
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: center;
   .flexitem1{
     display: grid;
 

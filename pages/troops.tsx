@@ -64,8 +64,10 @@ const Home: NextPage<any> = () => {
       
         </WelcomeHeader1>
            <WelcomeHeader2> 
-        
-                <Stepbar />
+       <div className="stepbar">
+             <Stepbar />
+       </div>
+            
           
           
                
@@ -148,7 +150,7 @@ const Home: NextPage<any> = () => {
              border: "none",
            }}
           >
-         <p><h1>MAKING OF: CYBER APE AGE</h1></p> 
+         <p>MAKING OF: CYBER APE AGE</p> 
       <p>Developing 52 unique pixel art traits, start of development of Cyber Ape Age experienc</p>
           </BloomingContainer>
           <BloomingContainer
@@ -159,7 +161,7 @@ const Home: NextPage<any> = () => {
              border: "none",
            }}
           >
-          <p><h1>MAKING OF: CYBER APE AGE</h1></p> 
+          <p>MAKING OF: CYBER APE AGE</p> 
       <p>Developing 52 unique pixel art traits, start of development of Cyber Ape Age experienc</p>
           </BloomingContainer>
 </div>
