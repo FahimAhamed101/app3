@@ -63,16 +63,21 @@ const Home: NextPage<any> = () => {
 
       
         </WelcomeHeader1>
+          
+        <ShopContainer>
            <WelcomeHeader2> 
        <div className="stepbar">
              <Stepbar />
        </div>
-            
+      
+            </WelcomeHeader2> 
+      
+       </ShopContainer>
           
           
                
              
-        </WelcomeHeader2>  
+   
      <ShopContainer>
            <div className="week">
  <h1>Week 4</h1>
@@ -137,6 +142,8 @@ const Home: NextPage<any> = () => {
 
 
         </WelcomeHeader2>
+
+        <ShopContainer>
         <WelcomeHeader2>  
           
         
@@ -166,6 +173,7 @@ const Home: NextPage<any> = () => {
           </BloomingContainer>
 </div>
 </WelcomeHeader2>
+</ShopContainer>
         </ShopItemsWrapper>
    
         <WelcomeHeader2>
@@ -357,9 +365,9 @@ marginTop:"15px",
        
          </div>
 
-       
+
           </WelcomeHeader2>
-         
+       
        
          <HorizontalSlider hasControls>
         <ShopItemsWrapper>

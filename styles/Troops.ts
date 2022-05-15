@@ -2,7 +2,22 @@ import styled from "styled-components";
 import { PAGE_MAX_WIDTH } from "../constants";
 
 export const ShopContainer = styled.div`
-  width: 100%;
+  
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+
+
+}
+
+ display: grid;
+  justify-content: center;
+
+
+width: 100%;
 
 .week{
   display: flex;
@@ -40,10 +55,7 @@ export const WelcomeHeader1 = styled.div`
 
 }
 
-.flexdiv{
-  display: flex;
-.flex1{
-  padding:15px 0 0 30px;
+.flexdiv{0 0 30px;
   margin-right:30px;
 }
  
@@ -64,6 +76,9 @@ export const WelcomeHeader1 = styled.div`
     font-size: 2.75rem;
 
     color: black;
+  display: flex;
+.flex1{
+  padding:15px 
   }
 
   p {
@@ -82,9 +97,7 @@ display: flex;
 flex-direction: row;
 
 justify-content: center;
-.steptext{
 
-}
 .stepbar{
   display: flex;
 flex-direction: row;
@@ -111,7 +124,7 @@ justify-content: center;
   width: 75%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   .flexitem1{
     display: grid;
 
